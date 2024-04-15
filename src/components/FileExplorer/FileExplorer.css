@@ -1,0 +1,21 @@
+.FolderName {
+  display: flex;
+  background-color: lightgrey;
+  width: 400px;
+  justify-content: space-between;
+  padding: 2px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.FileName {
+  margin-bottom: 4px;
+}
+
+.FolderContainer > *:not(:first-child) {
+  margin-left: 5px;
+}
+
+.CreateNewContainer {
+  margin-bottom: 4px;
+}
